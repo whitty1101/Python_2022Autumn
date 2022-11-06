@@ -2,9 +2,9 @@ from tkinter import *
 #建立視窗FRAME
 root=Tk()
 #TITLE
-root.title('class4')
-root.geometry('600x400+150+200')
-mylabel=Label(root, text="name", fg='blue',bg="purple", font=('Arial',16,'bold'))
+root.title('class4_HW1')
+root.geometry('400x400+150+200')
+mylabel=Label(root, text="", fg='blue',bg="purple", font=('Arial',16,'bold'))
 e=Entry(root)
 e.pack()
 def clicked():
