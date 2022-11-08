@@ -85,26 +85,27 @@ root.mainloop()
 
 
 # #     padx/pady:元件邊框與容器之距離(預設=0)
-# from tkinter import *
-# root=Tk()
-# root.title('class4_HW2')
-# root.geometry('500x500')
-# mybutton1=Button(root,text='left')
-# mybutton1.pack(side='left',padx=20)
-# mybutton2=Button(root,text='right')
-# mybutton2.pack(side='right',padx=30)
-
-# root.mainloop()
-
-
-#     ipadx/ipady:元件內容(文字,圖像)與其邊框之距離(px,預設=0)
 from tkinter import *
 root=Tk()
 root.title('class4_HW2')
 root.geometry('500x500')
-mybutton1.pack(side='left',ipadx=30)
 mybutton1=Button(root,text='left')
-mybutton2.pack(side='right',ipadx=30)
+mybutton1.pack(side='left',padx=20)
 mybutton2=Button(root,text='right')
+mybutton2.pack(side='right',padx=30)
 
-root,mainloop()
+root.mainloop()
+
+
+#     ipadx/ipady:元件內容(文字,圖像)與其邊框之距離(px,預設=0)
+# from tkinter import *
+# # root=Tk()
+# # root.title('class4_HW2')
+# # root.geometry('500x500')
+# # mybutton1.pack(side='left',ipadx=30)
+# # mybutton1=Button(root,text='left')
+# # mybutton2.pack(side='right',ipadx=30)
+# # mybutton2=Button(root,text='right')
+
+# # root,mainloop()
+
